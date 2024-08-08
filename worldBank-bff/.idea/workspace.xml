@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42aa0a0d-2280-417b-811b-537789587ee0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kJ3YaTngftkz1cFgfOntQ23Ctx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.WorldBankControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorHandlesNullResponse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsBadRequestWhenCodigoPaisIsMissing.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsEmptyListWhenNoData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsValidData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorThrowsException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaHandlesNullResponse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaReturnsEmptyListWhenNoData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaReturnsValidData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaThrowsGenericException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaThrowsTimeoutException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WorldBankServiceTest.testGetPovertyIndicatorSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.worldbank in worldBank.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.worldBank [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Startup.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/adailton/worldBank-bff&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.worldbank.handle" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.worldbank.controllers" />
+      <recent name="br.com.worldbank.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Startup">
+    <configuration name="WorldBankControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worldBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.worldbank.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.worldbank.controllers" />
+      <option name="MAIN_CLASS_NAME" value="br.com.worldbank.controllers.WorldBankControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorldBankControllerTest.getPovertyIndicatorReturnsBadRequestWhenCodigoPaisIsMissing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worldBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.worldbank.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.worldbank.controllers" />
+      <option name="MAIN_CLASS_NAME" value="br.com.worldbank.controllers.WorldBankControllerTest" />
+      <option name="METHOD_NAME" value="getPovertyIndicatorReturnsBadRequestWhenCodigoPaisIsMissing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorldBankControllerTest.getPovertyIndicatorReturnsEmptyListWhenNoData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worldBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.worldbank.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.worldbank.controllers" />
+      <option name="MAIN_CLASS_NAME" value="br.com.worldbank.controllers.WorldBankControllerTest" />
+      <option name="METHOD_NAME" value="getPovertyIndicatorReturnsEmptyListWhenNoData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorldBankControllerTest.getPovertyIndicatorReturnsValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worldBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.worldbank.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.worldbank.controllers" />
+      <option name="MAIN_CLASS_NAME" value="br.com.worldbank.controllers.WorldBankControllerTest" />
+      <option name="METHOD_NAME" value="getPovertyIndicatorReturnsValidData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="worldbank in worldBank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worldBank" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/br/com/worldbank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="worldBank" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.worldbank.Startup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.worldbank in worldBank" />
+        <item itemvalue="JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsBadRequestWhenCodigoPaisIsMissing" />
+        <item itemvalue="JUnit.WorldBankControllerTest" />
+        <item itemvalue="JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsValidData" />
+        <item itemvalue="JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsEmptyListWhenNoData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42aa0a0d-2280-417b-811b-537789587ee0" name="Changes" comment="" />
+      <created>1722987901564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722987901564</updated>
+      <workItem from="1722987902761" duration="450000" />
+      <workItem from="1722988369190" duration="11952000" />
+      <workItem from="1723031861780" duration="4722000" />
+      <workItem from="1723049131537" duration="3731000" />
+      <workItem from="1723052972002" duration="1845000" />
+      <workItem from="1723057102915" duration="3423000" />
+      <workItem from="1723066812960" duration="7207000" />
+      <workItem from="1723076913708" duration="1130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

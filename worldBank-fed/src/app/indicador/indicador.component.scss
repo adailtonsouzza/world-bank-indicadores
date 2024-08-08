@@ -1,0 +1,50 @@
+.toolbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .toolbar-content mat-icon {
+    margin-right: 8px;
+  }
+
+  .container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9; 
+  }
+  
+  .custom-input {
+    width: 150px !important;
+  }
+  
+  .custom-button {
+    margin-top: 10px; 
+  }
+
+  .input-group {
+    display: flex;
+    align-items: center;
+    width: 250px;
+  }
+  
+  .info-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 8px; 
+    cursor: pointer;
+  }
+  
+  .info-button mat-icon {
+    color: #007bff; 
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 20px;
+  }

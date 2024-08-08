@@ -1,0 +1,58 @@
+<mat-toolbar>
+  <span class="toolbar-content">
+    <mat-icon>public</mat-icon>
+    API do Banco Mundial, para pegar o indicador que avalia a quantidade de pessoas em situação de extrema pobreza no mundo
+  </span>
+</mat-toolbar>
+
+<div class="container">
+  <h2>Formulário para pegar o indicador que avalia a quantidade de pessoas em situação de extrema pobreza no mundo</h2>
+  <form (ngSubmit)="onSubmit()" #indicadorForm="ngForm">
+    <div class="form-group">
+      <label for="codigo">Código do País</label>
+      <div class="input-group">
+      <input type="text" class="form-control custom-input" id="codigo" name="codigo" [(ngModel)]="codigo" required>
+        <button type="button" class="btn btn-info info-button" (click)="openCountryCodes()" title="Nãcódigo dos países, clique aqui">
+          <mat-icon>info</mat-icon>
+        </button>
+      </div>
+      <div *ngIf="codigoInvalido" class="text-danger mt-2">Código do país obrigatório</div>
+    </div>
+    <button type="submit" class="btn btn-primary custom-button">Pesquisar</button>
+  </form>
+
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+  <table class="table mt-4" *ngIf="data.length > 0">
+    <thead>
+      <tr>
+        <th *ngFor="let column of displayedColumns">{{ column }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of displayedData">
+        <td>{{ item.pais }}</td>
+        <td>{{ item.data }}</td>
+        <td>  {{ item.indicador ? item.indicador + '%' : 'Valor não disponível' }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <nav *ngIf="data.length > itemsPerPage">
+    <ul class="pagination">
+      <li class="page-item" [class.disabled]="currentPage === 1">
+        <a class="page-link" (click)="changePage(currentPage - 1)">Anterior</a>
+      </li>
+      <li class="page-item" *ngFor="let page of [].constructor(totalPages()); let i = index" [class.active]="currentPage === i + 1">
+        <a class="page-link" (click)="changePage(i + 1)">{{ i + 1 }}</a>
+      </li>
+      <li class="page-item" [class.disabled]="currentPage === totalPages()">
+        <a class="page-link" (click)="changePage(currentPage + 1)">Próximo</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
