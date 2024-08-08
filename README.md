@@ -43,37 +43,40 @@ Este projeto consiste em um front-end Angular e um back-end Java que consome a A
      ```bash
      docker-compose down
 
-   ##Endpoint da API
+  ## Endpoint da API
 
-   **Endereço**
-   - URL: http://localhost:8080/api/indicador?codigoPais=br
+### Endereço
 
-   **Descrição**
-     Este endpoint consome a API do Banco Mundial para obter informações sobre um país baseado no código passado como parâmetro.
+- **URL**: `http://localhost:8080/api/indicador?codigoPais=br`
 
-   **Parâmetros**
+### Descrição
 
-   - codigoPais: Código do país a ser pesquisado (por exemplo, br para Brasil).
+Este endpoint consome a API do Banco Mundial para obter informações sobre um país baseado no código passado como parâmetro.
 
+### Parâmetros
 
-  ##Front-end
+- **codigoPais**: Código do país a ser pesquisado (por exemplo, `br` para Brasil).
 
-    O front-end é uma aplicação Angular que permite ao usuário digitar o código do país e clicar em "Pesquisar". Os dados são buscados através do back-end e apresentados em uma tabela. Caso ocorra um erro, um alerta é exibido.
+## Front-end
 
-  **Funcionamento**
+O front-end é uma aplicação Angular que permite ao usuário digitar o código do país e clicar em "Pesquisar". Os dados são buscados através do back-end e apresentados em uma tabela. Caso ocorra um erro, um alerta é exibido.
 
-  1.O usuário acessa http://localhost:4200.
-  2.Digita o código do país no campo de pesquisa.
-  3.Clica no botão "Pesquisar".
-  4.Os dados são exibidos em uma tabela, ou um alerta é mostrado em caso de erro.
+### Funcionamento
 
-  ##Documentação da API com Swagger
-    A documentação da API está disponível em:
-    Swagger UI (http://localhost:8080/swagger-ui/index.html)
+1. O usuário acessa [http://localhost:4200](http://localhost:4200).
+2. Digita o código do país no campo de pesquisa.
+3. Clica no botão "Pesquisar".
+4. Os dados são exibidos em uma tabela, ou um alerta é mostrado em caso de erro.
 
-  ##Testes do Back-end
-  O back-end possui testes implementados para garantir a funcionalidade e a integridade da API. Certifique-se de que os testes estão sendo executados e passando corretamente para garantir a qualidade da aplicação.
+## Documentação da API com Swagger
 
+A documentação da API está disponível em:
+
+- [Swagger UI](http://localhost:8080/swagger-ui/index.html)
+
+## Testes do Back-end
+
+O back-end possui testes implementados para garantir a funcionalidade e a integridade da API. Certifique-se de que os testes estão sendo executados e passando corretamente para garantir a qualidade da aplicação.
   ## Histórias de Usuário
 
 ### História de Usuário 1
