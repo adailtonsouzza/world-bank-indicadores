@@ -30,7 +30,7 @@ export class IndicadorComponent {
   codigoInvalido: boolean = false;
   data: Indicador[] = [];
   displayedData: any[] = [];
-  displayedColumns: string[] = ['pais', 'data', 'indicador'];
+  displayedColumns: string[] = ['País', 'Ano', 'Indicador'];
   currentPage: number = 1;
   itemsPerPage: number = 5;
   Math: any;

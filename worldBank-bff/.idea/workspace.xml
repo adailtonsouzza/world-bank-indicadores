@@ -19,6 +19,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "adailtonsouzza"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/adailtonsouzza/world-bank-indicadores.git",
+    "accountId": "437f2ab7-3120-452c-b8b3-fbe48ab94bc8"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -34,45 +49,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.WorldBankControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorHandlesNullResponse.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsBadRequestWhenCodigoPaisIsMissing.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsEmptyListWhenNoData.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsValidData.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankControllerTest.getPovertyIndicatorThrowsException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaHandlesNullResponse.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaReturnsEmptyListWhenNoData.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaReturnsValidData.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaThrowsGenericException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankServiceTest.getIndicadorProbrezaThrowsTimeoutException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorldBankServiceTest.testGetPovertyIndicatorSuccess.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.worldbank in worldBank.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.worldBank [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Startup.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/adailton/worldBank-bff&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.WorldBankControllerTest.executor": "Run",
+    "JUnit.WorldBankControllerTest.getPovertyIndicatorHandlesNullResponse.executor": "Run",
+    "JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsBadRequestWhenCodigoPaisIsMissing.executor": "Run",
+    "JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsEmptyListWhenNoData.executor": "Run",
+    "JUnit.WorldBankControllerTest.getPovertyIndicatorReturnsValidData.executor": "Run",
+    "JUnit.WorldBankControllerTest.getPovertyIndicatorThrowsException.executor": "Run",
+    "JUnit.WorldBankServiceTest.executor": "Run",
+    "JUnit.WorldBankServiceTest.getIndicadorProbrezaHandlesNullResponse.executor": "Run",
+    "JUnit.WorldBankServiceTest.getIndicadorProbrezaReturnsEmptyListWhenNoData.executor": "Run",
+    "JUnit.WorldBankServiceTest.getIndicadorProbrezaReturnsValidData.executor": "Run",
+    "JUnit.WorldBankServiceTest.getIndicadorProbrezaThrowsGenericException.executor": "Run",
+    "JUnit.WorldBankServiceTest.getIndicadorProbrezaThrowsTimeoutException.executor": "Run",
+    "JUnit.WorldBankServiceTest.testGetPovertyIndicatorSuccess.executor": "Run",
+    "JUnit.worldbank in worldBank.executor": "Run",
+    "Maven.worldBank [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Startup.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Ambiente/world-bank-indicadores/worldBank-bff",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -199,6 +215,7 @@
       <workItem from="1723057102915" duration="3423000" />
       <workItem from="1723066812960" duration="7207000" />
       <workItem from="1723076913708" duration="1130000" />
+      <workItem from="1723250340093" duration="296000" />
     </task>
     <servers />
   </component>
