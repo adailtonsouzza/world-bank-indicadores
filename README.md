@@ -68,7 +68,7 @@ O front-end é uma aplicação Angular que permite ao usuário digitar o código
 3. Clica no botão "Pesquisar".
 4. Os dados são exibidos em uma tabela, ou um alerta é mostrado em caso de erro.
    
-## Testes do Back-end
+## Testes do Front-end
 
 O front-end possui testes implementados utilizando Jasmine e Karma para garantir a funcionalidade e a integridade da aplicação.
 
