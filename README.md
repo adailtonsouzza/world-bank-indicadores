@@ -67,6 +67,10 @@ O front-end é uma aplicação Angular que permite ao usuário digitar o código
 2. Digita o código do país no campo de pesquisa.
 3. Clica no botão "Pesquisar".
 4. Os dados são exibidos em uma tabela, ou um alerta é mostrado em caso de erro.
+   
+## Testes do Back-end
+
+O front-end possui testes implementados utilizando Jasmine e Karma para garantir a funcionalidade e a integridade da aplicação.
 
 ## Documentação da API com Swagger
 
