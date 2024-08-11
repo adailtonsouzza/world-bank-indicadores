@@ -1,41 +1,55 @@
-import { Component, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { CommonModule } from '@angular/common';
-import {MatTableDataSource, MatTableModule} from '@angular/material/table'
-import { MatPaginator } from '@angular/material/paginator';
+import {MatTableDataSource, MatTableModule} from '@angular/material/table';
+import { MatPaginator,MatPaginatorModule } from '@angular/material/paginator';
 import { IndicadorService } from '../core/service/indicador.service';
-import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
+import { HttpClientModule } from '@angular/common/http'; 
 import { Indicador } from './model/indicador.model';
 
 @Component({
   selector: 'app-indicador',
   standalone: true,
-  imports: [MatToolbarModule, 
+  imports: [
+    MatToolbarModule, 
     MatIconModule, 
-    FormsModule,MatInputModule, 
+    FormsModule,
+    MatInputModule, 
     MatButtonModule,
     CommonModule,
     MatTableModule,
     MatPaginator, 
-    HttpClientModule],
+    HttpClientModule,
+    MatPaginatorModule],
   templateUrl: './indicador.component.html',
   styleUrl: './indicador.component.scss'
 })
-export class IndicadorComponent {
+export class IndicadorComponent implements OnInit ,AfterViewInit {
+
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
+
+  dataSource = new MatTableDataSource<Indicador>;
+  displayedColumnsData: string[] = ['pais', 'ano', 'indicador'];
+
   codigo: string = '';
-  codigoInvalido: boolean = false;
-  data: Indicador[] = [];
-  displayedData: any[] = [];
-  displayedColumns: string[] = ['País', 'Ano', 'Indicador'];
-  currentPage: number = 1;
-  itemsPerPage: number = 5;
-  Math: any;
   errorMessage: string = '';
+
+ 
+  codigoInvalido: boolean = false;
+  mostraTabela: boolean = false;
+
   constructor(private service: IndicadorService) {}
+  ngOnInit(): void {
+    this.mostraTabela = false;
+  }
+
+  ngAfterViewInit() {
+    this.dataSource.paginator = this.paginator;
+  }
 
   onSubmit() {
     if (!this.codigo) {
@@ -44,19 +58,20 @@ export class IndicadorComponent {
       this.service.getIndicador(this.codigo).subscribe(
         (response) => {
           if (response[0].message) {
+            this.mostraTabela = false;
             this.errorMessage = 'Erro ao buscar dados na API. Verificar código do país.';
           } else {
-            this.data = this.mapResponseToIndicador(response);
-            this.updateDisplayedData();
+            this.dataSource.data = this.mapResponseToIndicador(response);
             this.errorMessage = '';
+            this.mostraTabela = true;
           }
         },
         (error) => {
+          this.mostraTabela = false;
           this.errorMessage = 'Erro ao buscar dados na API. Verificar código do país.';
         }
       );
       this.codigoInvalido = false;
-      this.updateDisplayedData();
     }
   }
 
@@ -67,21 +82,6 @@ export class IndicadorComponent {
       data: item.date,
       indicador: item.value
     }));
-  }
-
-  updateDisplayedData() {
-    const startIndex = (this.currentPage - 1) * this.itemsPerPage;
-    const endIndex = startIndex + this.itemsPerPage;
-    this.displayedData = this.data.slice(startIndex, endIndex);
-  }
-
-  changePage(page: number) {
-    this.currentPage = page;
-    this.updateDisplayedData();
-  }
-
-  totalPages(): number {
-    return Math.ceil(this.data.length / this.itemsPerPage);
   }
 
   openCountryCodes() {
